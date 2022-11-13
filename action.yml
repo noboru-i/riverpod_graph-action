@@ -1,0 +1,9 @@
+name: 'riverpod_graph action'
+description: 'Run riverpod_graph'
+author: 'noboru-i'
+runs:
+  using: 'composite'
+  steps:
+    - id: riverpod_graph-action
+      run: $GITHUB_ACTION_PATH/setup.sh
+      shell: bash
