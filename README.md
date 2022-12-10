@@ -6,7 +6,7 @@ Run [riverpod_graph](https://github.com/rrousselGit/riverpod/tree/master/package
 
 - Executable `dart` command.  
 You can easy to install by `- uses: subosito/flutter-action@v2`.
-- Output `build_runner` result. (If you are using [riverpod_generator](https://pub.dev/packages/riverpod_generator))  
+- Result of `build_runner`. (If you are using [riverpod_generator](https://pub.dev/packages/riverpod_generator))  
 By running `flutter pub run build_runner build --delete-conflicting-outputs`.
 
 ## Output
