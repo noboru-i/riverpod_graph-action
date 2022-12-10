@@ -1,4 +1,5 @@
 dart pub global activate -sgit https://github.com/rrousselGit/riverpod.git --git-path packages/riverpod_graph
+echo $GITHUB_WORKSPACE
 dart pub global run riverpod_graph:riverpod_graph $GITHUB_WORKSPACE > raw_output.md
 
 echo "\`\`\`mermaid" > graph.md
