@@ -4,7 +4,6 @@ author: 'noboru-i'
 runs:
   using: 'composite'
   steps:
-    - uses: subosito/flutter-action@v2
     - id: riverpod_graph-action
       run: $GITHUB_ACTION_PATH/run.sh
       shell: bash
