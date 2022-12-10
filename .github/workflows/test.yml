@@ -20,7 +20,7 @@ jobs:
           path: tmp
       - name: Copy output files
         run: |
-          cp graph.md ./tmp
+          cp riverpod_graph.md ./tmp
 
       - name: Commit files
         run: |
